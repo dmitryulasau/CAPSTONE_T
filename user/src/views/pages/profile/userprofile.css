@@ -1,0 +1,43 @@
+.containerProfile {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.containerProfile::after {
+  content: "";
+  background-image: url("https://res.cloudinary.com/dulasau/image/upload/v1662076685/COVERPROFILE_n0hhqf.jpg");
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 8px;
+}
+
+/* sx={{
+  display: "block",
+  position: "relative",
+  margin: 0,
+  padding: 0,
+  "&::after": {
+    content: '""',
+    backgroundImage: `url(${"https://res.cloudinary.com/dulasau/image/upload/v1662060798/louis-magnotti-YvCg5X3pWzc-unsplash_ph0noc.jpg"})`,
+    opacity: 0.4,
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
+    position: "absolute",
+    zIndex: -1,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+  },
+}} */
